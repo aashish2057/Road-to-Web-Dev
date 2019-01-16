@@ -6,3 +6,7 @@ li {
     /* rgb color system */
     color: rgb(125, 0, 150)
 }
+h4 {
+    /* rgba color system a is transparent */
+    color: rgba(125, 0, 150, 0.295)
+}
