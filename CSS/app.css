@@ -8,5 +8,16 @@ li {
 }
 h4 {
     /* rgba color system a is transparent */
-    color: rgba(125, 0, 150, 0.295)
+    /* color: rgba(125, 0, 150, 0.295) */
+    /* Background of element */
+    background: rgb(255, 3, 4);
+}
+/* Changing color of body */
+body {
+    background: url(https://static.web-backgrounds.net/uploads/2010/11/Preview-4.jpg);
+    /* if background image is too small it will tile */
+    /* use background-repeat to no repeat */
+    background-repeat: no-repeat;
+    /* stretch background to screen */
+    background-size: cover;
 }
