@@ -1,6 +1,13 @@
 h1 {
     /* Hexadecimal color system */
-    color: #FF0000  
+    color: #FF0000;
+    /* Border has 3 parts: width, color, style - all 3 must be used */
+    /* border-color: purple;
+    border-width: 5px;
+    border-style: solid */ 
+
+    /* Faster syntax: width, style, color */
+    border: 5px double purple;
 }
 li {
     /* rgb color system */
@@ -14,10 +21,12 @@ h4 {
 }
 /* Changing color of body */
 body {
-    background: url(https://static.web-backgrounds.net/uploads/2010/11/Preview-4.jpg);
+    background: pink;
+
+    /* background: url(https://static.web-backgrounds.net/uploads/2010/11/Preview-4.jpg);
     /* if background image is too small it will tile */
     /* use background-repeat to no repeat */
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat;
     /* stretch background to screen */
-    background-size: cover;
+    /* background-size: cover; */
 }
