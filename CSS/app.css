@@ -1,15 +1,4 @@
 h1 {
-<<<<<<< HEAD
-    color: red;
-}
-
-li {
-    color: green;
-}
-
-h4 {
-    color: purple;
-=======
     /* Hexadecimal color system */
     color: #FF0000;
     /* Border has 3 parts: width, color, style - all 3 must be used */
@@ -40,5 +29,4 @@ body {
     /* background-repeat: no-repeat;
     /* stretch background to screen */
     /* background-size: cover; */
->>>>>>> b1bb43bc7feddcc6434b5f84b220c3d5c0e3ff01
 }
